@@ -142,7 +142,9 @@ nav {
 /* Estilos del menu mobile */
 
 .mobile-menu {
+    width: 100%;
     position: absolute;
+    z-index: 10;
     background-color: var(--white);
     top: 61px;
     left: 0;

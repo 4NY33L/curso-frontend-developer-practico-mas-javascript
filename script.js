@@ -106,6 +106,8 @@ function renderProducts(arr) {
 
 function showProductDetail(ev) {
     asideProductDetail.classList.remove("inactive")
+    asideCartDetail.classList.add("inactive")
+    mobileMenu.classList.add("inactive")
     const inputChecked = ev.target
     console.log(inputChecked.checked)
     const product = productList.find(product => product.id === +inputChecked.id)
