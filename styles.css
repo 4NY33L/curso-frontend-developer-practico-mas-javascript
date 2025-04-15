@@ -142,6 +142,7 @@ nav {
 /* Estilos del menu mobile */
 
 .mobile-menu {
+    box-sizing: border-box;
     width: 100%;
     position: absolute;
     z-index: 10;
